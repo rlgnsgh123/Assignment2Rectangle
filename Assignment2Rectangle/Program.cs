@@ -20,7 +20,7 @@ namespace Assignment2Rectangle
             {
                 Console.Write("Please enter lenght: ");
                 isTrue = int.TryParse(Console.ReadLine(), out length);
-
+                
                 if (!isTrue)
                 {
                     Console.Write("\nPlease enter right lenght as inteager...");   

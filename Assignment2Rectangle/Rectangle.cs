@@ -11,6 +11,11 @@ namespace Assignment2Rectangle
         private int length;
         private int width;
 
+
+        public Rectangle()
+        {
+
+        }
         public Rectangle(int length, int width)
         {
             this.length = length;
@@ -19,38 +24,84 @@ namespace Assignment2Rectangle
 
         public int GetLength()
         {
-            return this.length;
+            try
+            {
+                if (this.length < 0)
+                {
+                    throw new ArgumentException();
+                }
+                else
+                {
+                    return this.length;
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            
         }
         public int SetLength(int length)
         {
-            if (length < 0)
+            try
             {
-                Console.WriteLine("Length should be greater than zero");
-                this.length = length;
-                return this.length;
+                if (length < 0)
+                {
+                    Console.WriteLine("Length should be greater than zero");
+                    this.length = length;
+                    throw new ArgumentException();
+                }
+                else
+                {
+                    this.length = length;
+                    return this.length;
+                }
             }
-            else
+            catch (Exception)
             {
-                this.length = length;
-                return this.length;
+
+                throw;
             }
+            
         }
         public int GetWidth()
         {
-            return this.width;
+            try
+            {
+                if (this.width < 0)
+                {
+                    throw new ArgumentException();
+                }
+                else
+                {
+                    return this.width;
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
         public int SetWidth(int width)
         {
-            if (width < 0)
+            try
             {
-                Console.WriteLine("Width should be greater than zero");
-                this.width = width;
-                return this.width;
+                if (width < 0)
+                {
+                    Console.WriteLine("width should be greater than zero");
+                    this.width = width;
+                    throw new ArgumentException();
+                }
+                else
+                {
+                    this.width = width;
+                    return this.width;
+                }
             }
-            else
+            catch (Exception)
             {
-                this.width = width;
-                return this.width;
+
+                throw;
             }
         }
         public int GetPerimeter()
