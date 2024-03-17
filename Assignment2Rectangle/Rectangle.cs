@@ -19,34 +19,38 @@ namespace Assignment2Rectangle
 
         public int GetLength()
         {
-            return length;
+            return this.length;
         }
         public int SetLength(int length)
         {
             if (length < 0)
             {
                 Console.WriteLine("Length should be greater than zero");
-                return length;
+                this.length = length;
+                return this.length;
             }
             else
             {
-                return length;
+                this.length = length;
+                return this.length;
             }
         }
         public int GetWidth()
         {
-            return width;
+            return this.width;
         }
         public int SetWidth(int width)
         {
             if (width < 0)
             {
                 Console.WriteLine("Width should be greater than zero");
-                return width;
+                this.width = width;
+                return this.width;
             }
             else
             {
-                return width;
+                this.width = width;
+                return this.width;
             }
         }
         public int GetPerimeter()

@@ -1,0 +1,7 @@
+C:\QA_LEVEL4\Assignment2Rectangle\Assignment2Rectangle\bin\Debug\Assignment2Rectangle.exe.config
+C:\QA_LEVEL4\Assignment2Rectangle\Assignment2Rectangle\bin\Debug\Assignment2Rectangle.exe
+C:\QA_LEVEL4\Assignment2Rectangle\Assignment2Rectangle\bin\Debug\Assignment2Rectangle.pdb
+C:\QA_LEVEL4\Assignment2Rectangle\Assignment2Rectangle\obj\Debug\Assignment2Rectangle.csproj.AssemblyReference.cache
+C:\QA_LEVEL4\Assignment2Rectangle\Assignment2Rectangle\obj\Debug\Assignment2Rectangle.csproj.CoreCompileInputs.cache
+C:\QA_LEVEL4\Assignment2Rectangle\Assignment2Rectangle\obj\Debug\Assignment2Rectangle.exe
+C:\QA_LEVEL4\Assignment2Rectangle\Assignment2Rectangle\obj\Debug\Assignment2Rectangle.pdb
